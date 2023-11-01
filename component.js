@@ -1,0 +1,7 @@
+const component = () => {
+    return(
+    <>
+        
+    </>
+    )
+}
