@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('hello from simple server :)');
 });
 
+app.get('/b', (req, res) => {
+  res.send('B기능');
+});
+
 app.get('/a', (req, res) => {
   res.send('a 경로 들어왔을때 로직');
 }
